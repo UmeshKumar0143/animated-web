@@ -11,3 +11,16 @@
     font-family: anoz2;
     src: url('./assets/fonts/madefor-text.var.original.ttf');
 }
+
+@font-face{
+    font-family: anzo3;
+    src: url('./assets/fonts/file1.ttf');
+}
+@font-face{
+    font-family: anzo4;
+    src: url('./assets/fonts/file2.ttf');
+}
+@font-face{
+    font-family: anzo5;
+    src: url('./assets/fonts/file3.ttf');
+}
