@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: anzo1;
+    src: url('./assets/fonts/file.ttf');
+}
+
+@font-face {
+    font-family: anoz2;
+    src: url('./assets/fonts/madefor-text.var.original.ttf');
+}
