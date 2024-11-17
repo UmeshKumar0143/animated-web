@@ -24,3 +24,8 @@
     font-family: anzo5;
     src: url('./assets/fonts/file3.ttf');
 }
+
+
+#tilttext{
+    width: fit-content;
+}
