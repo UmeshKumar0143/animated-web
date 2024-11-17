@@ -25,7 +25,11 @@
     src: url('./assets/fonts/file3.ttf');
 }
 
+#page-1-in{
+    perspective: 1000px;
+}
 
 #tilttext{
     width: fit-content;
+    transform: rotateX(40deg) rotateY(20deg);
 }
