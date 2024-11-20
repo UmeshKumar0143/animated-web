@@ -29,7 +29,13 @@
     perspective: 1000px;
 }
 
+
 #tilttext{
     width: fit-content;
     transform: rotateX(0deg) rotateY(0deg);
+}
+
+#ani-text{
+    position: relative;
+    perspective: 3000px;
 }
