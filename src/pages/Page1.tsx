@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import Page1footer from "../components/Page1footer";
 import TiltText from "../components/TiltText";
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 export default function Page1(){
@@ -16,7 +15,7 @@ export default function Page1(){
 
          gsap.to(tiltRef.current,{
             transform: `rotateX(${Yval}deg) rotateY(${Xval}deg)`,
-            duration: 1,
+            duration: 2,
             ease: 'power4.out' 
 
          })
